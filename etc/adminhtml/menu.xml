@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="LavoWeb_RemoveDuplicatedScopedValues::products" title="Remove duplicated products" module="LavoWeb_RemoveDuplicatedScopedValues" sortOrder="1000" parent="Magento_Catalog::inventory" action="removeduplicatedscopedvalues/removeDuplicatedScopedValues/products" resource="LavoWeb_RemoveDuplicatedScopedValues::products"/>
+        <add id="LavoWeb_RemoveDuplicatedScopedValues::categories" title="Remove duplicated categories" module="LavoWeb_RemoveDuplicatedScopedValues" sortOrder="1001" parent="Magento_Catalog::inventory" action="removeduplicatedscopedvalues/removeDuplicatedScopedValues/categories" resource="LavoWeb_RemoveDuplicatedScopedValues::categories"/>
+    </menu>
+</config>
